@@ -22,7 +22,7 @@ def math(num1, operation, num2):
     result = None
     if operation == '+':
         result = float(num1) + float(num2)
-     elif operation == '-':
+    elif operation == '-':
         result = float(num1) - float(num2)
     elif operation == '*':
         result = float(num1) * float(num2)
